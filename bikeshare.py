@@ -235,8 +235,8 @@ def user_stats(df):
 
 def raw_data(df):
     """prints raw data five rows at a time"""
-    check = True
-    while check == True:
+    enter_loop = True
+    while enter_loop == True:
         for i in range(0, len(df)-1, 5):
     #if statement checks if end of dataframe is within five rows of current index
             if i+5 < len(df)-1:
@@ -255,7 +255,7 @@ def raw_data(df):
             elif i+5 > len(df)-1:
                 print(df.iloc[i : len(df)-1])
     #sets check to False to exit while loop
-        check = False
+        enter_loop = False
 
 
 def main():
