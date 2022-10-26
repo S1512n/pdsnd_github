@@ -19,3 +19,4 @@ README.md
 
 
 ### Credits
+Udacity Git Commit Message Style Guide [link](https://udacity.github.io/git-styleguide/)
