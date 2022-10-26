@@ -112,10 +112,10 @@ def divide_time(total_sec):
     args:
         (int) total_sec - total trip duration
     returns:
-        (int) days
-        (int) hours
-        (int) minutes
-        (int) seconds
+        (int) days - number of days in total trip duration
+        (int) hours - number of hours in total trip duration
+        (int) minutes - number of minutes in total trip duration
+        (int) seconds - number of seconds in total trip duration
     """
 
     days = total_sec // 86400
