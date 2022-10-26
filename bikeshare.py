@@ -119,11 +119,11 @@ def divide_time(total_sec):
     """
 
     days = total_sec // 86400
-    remainder_1 = total_sec % 86400
-    hours = remainder_1 // 3600
-    remainder_2 = remainder_1 % 3600
-    minutes = remainder_2 // 60
-    seconds = remainder_2 % 60
+    days_remainder = total_sec % 86400
+    hours = days_remainder // 3600
+    hours_remainder = days_remainder % 3600
+    minutes = hours_remainder // 60
+    seconds = hours_remainder % 60
 
     return days, hours, minutes, seconds
 
